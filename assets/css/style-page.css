@@ -65,19 +65,14 @@ nav {
 
 main {
     padding: 20px;
-    display: flex;
-    gap: 1.5rem;
 }
 
 #content {
-    flex: 5;
-    display: flex;  
-    flex-flow: column nowrap;
     gap: 1rem 2rem;
 }
 
 .card img {
-    width: 79%;
+    width: 50%;
     padding: 15px 0 ;
 }
 
@@ -91,39 +86,26 @@ code {
     font-size: .8rem;
 }
 
-aside {
-    flex: 1.5;
-}
-
-header {
-    display: inline;
-}
-
-.kutipan {
-    font-style: italic;
-}
-
-.kutipan::before, 
-.kutipan::after {
-    content: '"';
-    font-weight: 800;
-}
-
 @media screen and (max-width: 1200px) {
     main {
         flex-flow: column nowrap;
     }
-      main aside {
-        align-self: center;
+    
+    .card img {
+        width: 80%;
+        padding: 15px 0 ;
     }
+    
 }
 
 @media screen and (max-width: 768px) {
     nav ul {
         justify-content: center;
     }
-     
-      main aside {
-        align-self: stretch;
+    
+    .card img {
+        width: 80%;
+        padding: 15px 0 ;
     }
+     
 }
