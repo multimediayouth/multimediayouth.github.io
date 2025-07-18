@@ -3,53 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontak - multimedia Youth</title>
+    <title>Kontak - multimedia AbbaYouth</title>
     <link rel="stylesheet" href="../assets/css/style-page.css">
+    
+<!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
 </head>
 <body>
-    <header>
-        <div class="jumbotron">
-            <h1>Multimedia Youth KBC</h1>
-            <p>Materi dan Pembelajaran Bagi Pelayanan Multimedia di Youth</p>
-        </div>
+    <div class="container-fluid">
+        <!-- Header -->
+        <header>
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1 class="hero-title">Multimedia Youth KBC</h1>
+                    <p class="hero-subtitle">Materi dan Pembelajaran Bagi Pelayanan Multimedia di Youth</p>
+                </div>
+            </div>
 
-        <nav>
-            <ul class="mt-3">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="../contact.html">Kontak</a></li>
-            </ul>
-        </nav>
-    </header>
+            <!-- Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-custom">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../contact.html">Kontak</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-    <main>
-        <div class="content">
-            <h1>Directori - File Manager</h1>
-            <article id="" class="card">
-                <h2>Folder Kumpulan ppt Firman/Khotbah</h2>
-                <ol>
-                    <li>Download PPT Firman dari group WA</li>
-                    <li>
-                        Copy PPT tersebut <br>
-                        <img src="../assets/image/PPTKhotbah/01.png" alt="">
-                    </li>
-                    <li>
-                        Masuk ke folder <span class="text-white bg-dark"> "Youth" </span> <br>
-                        <img src="../assets/image/PPTKhotbah/02.png" alt="">
-                    </li>
-                    <li>
-                        Masuk ke folde  <span class="text-white bg-dark">"Kumpulan ppt khotbah"</span><br>
-                        <img src="../assets/image/PPTKhotbah/03.png" alt="">
-                    </li>
-                    <li>
-                        Pilih folder sesuai dengan tanggal ppt firman tersebut dan Paste di sini / <span class="text-white bg-dark">Ctrl + V</span><br>
-                        <img src="../assets/image/PPTKhotbah/04.png" alt="">
-                    </li>
-                </ol>
-            </article>
-        </div>
-    </main>
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+
+                <h1 class="page-title">📁 File Manager - PPT Khotbah</h1>
+                
+                <div class="instruction-card fade-in">
+                    <h2 class="card-title">📋 Panduan Menyimpan PPT Firman/Khotbah</h2>
+                    
+                    <ol class="step-list">
+                        <li>
+                            <div class="step-content">
+                                <strong>Download PPT Firman</strong> dari group WhatsApp Youth
+                                <br><small class="text-muted">Pastikan file sudah terunduh dengan lengkap sebelum melanjutkan ke langkah berikutnya</small>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="step-content">
+                                <strong>Copy PPT tersebut</strong> dengan cara klik kanan pada file, lalu pilih "Copy" atau tekan 
+                                <span class="code-snippet">Ctrl + C</span>
+                            </div>
+                            <img src="../assets/image/PPTKhotbah/01.png" alt="Copy PPT File" class="step-image">
+                        </li>
+                        
+                        <li>
+                            <div class="step-content">
+                                <strong>Masuk ke folder</strong> <span class="code-snippet">Youth</span>
+                                <br><small class="text-muted">Biasanya terletak di drive utama atau sesuai dengan struktur folder yang telah ditentukan</small>
+                            </div>
+                            <img src="../assets/image/PPTKhotbah/02.png" alt="Youth Folder" class="step-image">
+                        </li>
+                        
+                        <li>
+                            <div class="step-content">
+                                <strong>Masuk ke folder</strong> <span class="code-snippet">Kumpulan ppt khotbah</span>
+                                <br><small class="text-muted">Folder ini berisi semua koleksi PPT khotbah yang telah tersimpan</small>
+                            </div>
+                            <img src="../assets/image/PPTKhotbah/03.png" alt="PPT Khotbah Folder" class="step-image">
+                        </li>
+                        
+                        <li>
+                            <div class="step-content">
+                                <strong>Pilih folder sesuai tanggal</strong> PPT firman tersebut, lalu Paste di sini dengan cara klik kanan dan pilih "Paste" atau tekan 
+                                <span class="code-snippet">Ctrl + V</span>
+                                <br><small class="text-muted">Pastikan folder tanggal sudah sesuai dengan jadwal khotbah yang akan disampaikan</small>
+                            </div>
+                            <img src="../assets/image/PPTKhotbah/04.png" alt="Paste to Date Folder" class="step-image">
+                        </li>
+                    </ol>
+                    
+                    <div class="alert alert-info mt-4" role="alert">
+                        <h5 class="alert-heading">💡 Tips Penting:</h5>
+                        <ul class="mb-0">
+                            <li>Selalu periksa nama file sebelum menyimpan untuk memastikan tidak ada duplikasi</li>
+                            <li>Pastikan tanggal folder sesuai dengan jadwal pelayanan</li>
+                            <li>Jika ragu, konsultasikan dengan Worship Leader (WL) terlebih dahulu</li>
+                            <li>Backup file penting secara berkala</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Back to Top Button -->
+        <button class="back-to-top" id="backToTop">
+            ↑
+        </button>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <script>
+        // Fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationDelay = '0s';
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Back to top button
+        const backToTopButton = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Image click to zoom (simple implementation)
+        document.querySelectorAll('.step-image').forEach(img => {
+            img.addEventListener('click', function() {
+                if (this.style.transform === 'scale(1.5)') {
+                    this.style.transform = 'scale(1)';
+                    this.style.zIndex = '1';
+                    this.style.position = 'relative';
+                } else {
+                    this.style.transform = 'scale(1.5)';
+                    this.style.zIndex = '1000';
+                    this.style.position = 'relative';
+                }
+            });
+        });
+    </script>
 </body>
 </html>

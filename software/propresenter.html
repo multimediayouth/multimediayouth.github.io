@@ -5,50 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Propresenter 7 - multimedia Youth</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <div class="jumbotron">
-            <h1>Multimedia Youth KBC</h1>
-            <p>Software Bagi Pelayanan Multimedia di Youth</p>
-        </div>
+    <div class="container-fluid">
+        <!-- Header -->
+        <header>
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1 class="hero-title">Multimedia AbbaYouth KBC</h1>
+                    <p class="hero-subtitle">Materi dan Pembelajaran Bagi Pelayanan Multimedia di AbbaYouth</p>
+                </div>
+            </div>
 
-        <nav>
-            <ul class="mt-3">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="contact.html">Kontak</a></li>
-            </ul>
-        </nav>
-    </header>
+            <!-- Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-custom">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sejarah">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Kontak</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-    <main>
-        <div class="content">
-            <h1>Propresenter 7</h1>
-            <article id="" class="card">
-                <img src="https://renewedvision.com/wp-content/uploads/2022/08/Pro-Logo-Horizontal.svg" alt="">
-                <h2>Deskripsi Propresenter 7</h2>
-                <p>ProPresenter adalah perangkat lunak presentasi lintas platform (Mac & Windows) dan aplikasi produksi untuk acara langsung. Aplikasi ini menampilkan lirik, slide, dan media dengan lancar, membuat presentasi berkualitas tinggi dan produksi langsung menjadi mudah. ProPresenter adalah alat yang sangat diperlukan untuk gereja, bisnis, acara olahraga, konferensi, pameran dagang, konser, ruang kelas, auditorium, siaran studio, dan lainnya.</p>
-                <p>Operator ProPresenter mengontrol presentasi pada satu layar, sementara secara dinamis mempresentasikan kepada audiens pada satu atau beberapa layar tambahan.</p>
-                <h2>Lebih Banyak Fleksibilitas Dibandingkan Perangkat Lunak Slide Tradisional</h2>
-                <p>ARSITEKTUR BERLAPIS-LAPIS</p>
-                <p>Arsitektur berlapis-lapis memungkinkan latar belakang, lapisan video langsung, slide, alat peraga, dan topeng dikendalikan secara independen.</p>
-                <h2>Perangkat Lunak Presentasi yang Mudah Digunakan dengan Fitur-fitur Canggih</h2>
-                <p>ProPresenter 7 memiliki sejumlah fitur canggih yang sebelumnya dijual secara terpisah di Pro6 sebagai "modul" berbayar yang menawarkan fitur dan kemampuan tambahan di luar apa yang dibutuhkan oleh gereja pada umumnya.  Namun, gereja pada umumnya saat ini telah berkembang lebih canggih dalam produksi mereka. Kami senang melihat hal ini dan ingin melihat lebih banyak lagi, sehingga Renewed Vision sekarang menyertakan fitur-fitur canggih ini di Pro7 tanpa biaya tambahan (senilai $2.593 jika semuanya dibeli secara terpisah)!</p>
-                <h2>Antarmuka yang dimodernisasi</h2>
-                <p>Antarmuka ProPresenter 7 yang baru merupakan salah satu pembaruan terbesar kami pada UI yang sejalan dengan lingkungan produksi saat ini. Antarmuka ini ditata ulang, disederhanakan, dan digelapkan agar lebih mudah dilihat dan dioperasikan.</p>
-            </article>
+        <!-- Main Content -->
+        <main class="container py-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- ProPresenter Title Card -->
+                    <div class="card-modern fade-in">
+                        <h1 class="card-title">ProPresenter 7</h1>
+                        <img src="https://saltuniversity.com/wp-content/uploads/2021/08/Propresenter-Logo.png" 
+                             alt="ProPresenter Logo" 
+                             class="software-logo">
+                    </div>
 
-            <article class="card">
-                <h2>Menu Propresenter 7</h2>
-                <ul>
-                    <li><a href="page/installPropresenter.html">Install Propresenter 7</a></li>
-                    <li><a href="">Config Propresenter 7</a></li>
-                </ul>
-            </article>
-        </div>
-    </main>
+                    <!-- Description Card -->
+                    <div class="card-modern fade-in">
+                        <h2 class="card-title">Deskripsi ProPresenter 7</h2>
+                        <p class="content-text">
+                            ProPresenter adalah perangkat lunak presentasi lintas platform (Mac & Windows) dan aplikasi produksi untuk acara langsung. Aplikasi ini menampilkan lirik, slide, dan media dengan lancar, membuat presentasi berkualitas tinggi dan produksi langsung menjadi mudah. ProPresenter adalah alat yang sangat diperlukan untuk gereja, bisnis, acara olahraga, konferensi, pameran dagang, konser, ruang kelas, auditorium, siaran studio, dan lainnya.
+                        </p>
+                        <p class="content-text">
+                            Operator ProPresenter mengontrol presentasi pada satu layar, sementara secara dinamis mempresentasikan kepada audiens pada satu atau beberapa layar tambahan.
+                        </p>
+                    </div>
+
+                    <!-- Features Card -->
+                    <div class="card-modern fade-in">
+                        <h2 class="card-title">Lebih Banyak Fleksibilitas Dibandingkan Perangkat Lunak Slide Tradisional</h2>
+                        
+                        <div class="feature-highlight">
+                            <h3>ARSITEKTUR BERLAPIS-LAPIS</h3>
+                            <p class="content-text">
+                                Arsitektur berlapis-lapis memungkinkan latar belakang, lapisan video langsung, slide, alat peraga, dan topeng dikendalikan secara independen.
+                            </p>
+                        </div>
+
+                        <div class="feature-highlight">
+                            <h3>Perangkat Lunak Presentasi yang Mudah Digunakan dengan Fitur-fitur Canggih</h3>
+                            <p class="content-text">
+                                ProPresenter 7 memiliki sejumlah fitur canggih yang sebelumnya dijual secara terpisah di Pro6 sebagai "modul" berbayar yang menawarkan fitur dan kemampuan tambahan di luar apa yang dibutuhkan oleh gereja pada umumnya. Namun, gereja pada umumnya saat ini telah berkembang lebih canggih dalam produksi mereka. Kami senang melihat hal ini dan ingin melihat lebih banyak lagi, sehingga Renewed Vision sekarang menyertakan fitur-fitur canggih ini di Pro7 tanpa biaya tambahan (senilai $2.593 jika semuanya dibeli secara terpisah)!
+                            </p>
+                        </div>
+
+                        <div class="feature-highlight">
+                            <h3>Antarmuka yang dimodernisasi</h3>
+                            <p class="content-text">
+                                Antarmuka ProPresenter 7 yang baru merupakan salah satu pembaruan terbesar kami pada UI yang sejalan dengan lingkungan produksi saat ini. Antarmuka ini ditata ulang, disederhanakan, dan digelapkan agar lebih mudah dilihat dan dioperasikan.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Menu Card -->
+                    <div class="card-modern fade-in">
+                        <h2 class="card-title">Menu ProPresenter 7</h2>
+                        <ul class="menu-list">
+                            <li><a href="page/installPropresenter.html">Install ProPresenter 7</a></li>
+                            <li><a href="">Config ProPresenter 7</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <script>
+        // Add fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationDelay = '0.1s';
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.card-modern').forEach(card => {
+            observer.observe(card);
+        });
+    </script>
 </body>
 </html>
