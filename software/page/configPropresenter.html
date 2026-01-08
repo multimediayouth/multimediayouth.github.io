@@ -5,19 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Config ProPresenter 7 - multimedia Youth</title>
-    <!-- ======================== Icon ========================= -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="../../assets/image/Logo.svg" type="image/svg+xml">
-    <!-- ======================== CSS ========================= -->
-    <link rel="stylesheet" href="../../assets/css/style-page.css">
-    <!-- ======================== Fonts and Bootstrap ========================= -->
+    <link rel="icon" href="../../Assets/Image/Logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../../Assets/css/style-page.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="container-fluid">
-        <!-- Header -->
         <header>
             <div class="hero-section">
                 <div class="hero-content">
@@ -26,7 +22,6 @@
                 </div>
             </div>
 
-            <!-- Navigation -->
             <nav class="navbar navbar-expand-lg navbar-custom">
                 <div class="container">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -49,12 +44,10 @@
             </nav>
         </header>
 
-        <!-- Main Content -->
         <main class="main-content">
             <div class="container">
                 <h1 class="page-title fade-in">Config Screen ProPresenter 7</h1>
 
-                <!-- Description Card -->
                 <div class="instruction-card fade-in">
                     <h2 class="card-title">Tutorial Setting Monitor WL/Singer & Pembicara</h2>
                     <p class="content-text text-center mb-4">
@@ -69,21 +62,21 @@
                                 Langkah pertama, klik menu <strong>Screen</strong> yang berada di pojok kiri atas
                                 aplikasi ProPresenter.
                             </div>
-                            <img src="../../assets/image/configscreenpropresenter/1.png" alt="Step 1"
+                            <img src="../../Assets/Image/configscreenpropresenter/1.png" alt="Step 1"
                                 class="step-image">
                         </li>
                         <li>
                             <div class="step-content">
                                 Kemudian pilih dan klik menu <strong>Configure Screens...</strong>
                             </div>
-                            <img src="../../assets/image/configscreenpropresenter/2.png" alt="Step 2"
+                            <img src="../../Assets/Image/configscreenpropresenter/2.png" alt="Step 2"
                                 class="step-image">
                         </li>
                         <li>
                             <div class="step-content">
                                 Akan muncul jendela <strong>Screens</strong> seperti pada gambar di bawah ini.
                             </div>
-                            <img src="../../assets/image/configscreenpropresenter/3.png" alt="Step 3"
+                            <img src="../../Assets/Image/configscreenpropresenter/3.png" alt="Step 3"
                                 class="step-image">
                         </li>
                         <li>
@@ -91,7 +84,7 @@
                                 Klik pada bagian <strong>ppt</strong>, kemudian pada bagian Output yang bertulisan
                                 <strong>Unconfigured</strong>, pilih screen kedua dari 3 pilihan yang tersedia.
                             </div>
-                            <img src="../../assets/image/configscreenpropresenter/4.png" alt="Step 4"
+                            <img src="../../Assets/Image/configscreenpropresenter/4.png" alt="Step 4"
                                 class="step-image">
                         </li>
                         <li>
@@ -99,26 +92,25 @@
                                 Terakhir, klik tombol <strong>Reassign to New</strong>. Sekarang tampilan screen akan
                                 berubah sesuai dengan pengaturan yang baru.
                             </div>
-                            <img src="../../assets/image/configscreenpropresenter/5.png" alt="Step 5"
+                            <img src="../../Assets/Image/configscreenpropresenter/5.png" alt="Step 5"
                                 class="step-image">
                         </li>
                     </ol>
                 </div>
 
-                <!-- Info Card -->
                 <div class="instruction-card fade-in">
                     <h2 class="card-title">Informasi Tambahan</h2>
                     <div class="row text-center">
                         <div class="col-md-6 mb-4">
                             <h4>Monitor WL/Singer</h4>
                             <p>Tampilan khusus lirik untuk membantu WL dan Singers.</p>
-                            <img src="../../assets/image/configscreenpropresenter/MonitorWL.png" alt="Monitor WL"
+                            <img src="../../Assets/Image/configscreenpropresenter/MonitorWL.png" alt="Monitor WL"
                                 class="step-image">
                         </div>
                         <div class="col-md-6 mb-4">
                             <h4>Monitor Pembicara</h4>
                             <p>Tampilan yang sama dengan videotron/layar utama.</p>
-                            <img src="../../assets/image/configscreenpropresenter/MonitorPPT.png" alt="Monitor Speaker"
+                            <img src="../../Assets/Image/configscreenpropresenter/MonitorPPT.png" alt="Monitor Speaker"
                                 class="step-image">
                         </div>
                     </div>
@@ -126,7 +118,6 @@
             </div>
         </main>
 
-        <!-- Back to Top Button -->
         <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
             ↑
         </button>
@@ -136,12 +127,8 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <script>
-        // Fade in animation on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
+        // Animasi fade in tetap sama
+        const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -151,31 +138,17 @@
             });
         }, observerOptions);
 
-        // Observe all cards
         document.querySelectorAll('.instruction-card').forEach(card => {
             observer.observe(card);
+            card.style.transition = 'all 0.3s ease';
+            card.addEventListener('mouseenter', () => card.style.transform = 'translateY(-8px)');
+            card.addEventListener('mouseleave', () => card.style.transform = 'translateY(-5px)');
         });
 
-        // Back to top button visibility
         window.addEventListener('scroll', () => {
             const backToTop = document.querySelector('.back-to-top');
-            if (window.scrollY > 300) {
-                backToTop.classList.add('show');
-            } else {
-                backToTop.classList.remove('show');
-            }
-        });
-
-        // Smooth hover effects for cards
-        document.querySelectorAll('.instruction-card').forEach(card => {
-            card.style.transition = 'all 0.3s ease';
-            card.addEventListener('mouseenter', () => {
-                card.style.transform = 'translateY(-8px)';
-            });
-
-            card.addEventListener('mouseleave', () => {
-                card.style.transform = 'translateY(-5px)';
-            });
+            if (window.scrollY > 300) backToTop.classList.add('show');
+            else backToTop.classList.remove('show');
         });
     </script>
 </body>
