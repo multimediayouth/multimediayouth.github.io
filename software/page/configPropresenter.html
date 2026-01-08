@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Install Propresenter 7 - multimedia Youth</title>
+    <title>Config ProPresenter 7 - multimedia Youth</title>
     <!-- ======================== Icon ========================= -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="../../assets/image/Logo.svg" type="image/svg+xml">
@@ -52,45 +52,75 @@
         <!-- Main Content -->
         <main class="main-content">
             <div class="container">
-                <h1 class="page-title fade-in">Install ProPresenter 7</h1>
+                <h1 class="page-title fade-in">Config Screen ProPresenter 7</h1>
 
-                <!-- Installation Tutorial Card -->
+                <!-- Description Card -->
                 <div class="instruction-card fade-in">
-                    <h2 class="card-title">Tutorial Install ProPresenter 7</h2>
+                    <h2 class="card-title">Tutorial Setting Monitor WL/Singer & Pembicara</h2>
+                    <p class="content-text text-center mb-4">
+                        Berikut adalah langkah-langkah untuk mengatur screen di ProPresenter agar tampilan di monitor
+                        WL/Singer hanya lirik saja (berbeda dengan videotron) dan monitor pembicara sesuai dengan
+                        kebutuhan.
+                    </p>
+
                     <ol class="step-list">
                         <li>
                             <div class="step-content">
-                                Download zip file di <a
-                                    href="https://drive.google.com/drive/folders/1ehiplvSCuHP9WWftyTqYcl6PlLF2qibF?usp=drive_link"
-                                    class="download-link">Google Drive</a>
+                                Langkah pertama, klik menu <strong>Screen</strong> yang berada di pojok kiri atas
+                                aplikasi ProPresenter.
                             </div>
+                            <img src="../../assets/image/configscreenpropresenter/1.png" alt="Step 1"
+                                class="step-image">
                         </li>
                         <li>
                             <div class="step-content">
-                                Extract file zip yang telah didownload ke folder yang diinginkan
+                                Kemudian pilih dan klik menu <strong>Configure Screens...</strong>
                             </div>
+                            <img src="../../assets/image/configscreenpropresenter/2.png" alt="Step 2"
+                                class="step-image">
                         </li>
                         <li>
                             <div class="step-content">
-                                Jalankan file installer dan ikuti petunjuk instalasi
+                                Akan muncul jendela <strong>Screens</strong> seperti pada gambar di bawah ini.
                             </div>
+                            <img src="../../assets/image/configscreenpropresenter/3.png" alt="Step 3"
+                                class="step-image">
                         </li>
                         <li>
                             <div class="step-content">
-                                Setelah instalasi selesai, buka aplikasi ProPresenter 7 dan mulai pengaturan awal
+                                Klik pada bagian <strong>ppt</strong>, kemudian pada bagian Output yang bertulisan
+                                <strong>Unconfigured</strong>, pilih screen kedua dari 3 pilihan yang tersedia.
                             </div>
+                            <img src="../../assets/image/configscreenpropresenter/4.png" alt="Step 4"
+                                class="step-image">
+                        </li>
+                        <li>
+                            <div class="step-content">
+                                Terakhir, klik tombol <strong>Reassign to New</strong>. Sekarang tampilan screen akan
+                                berubah sesuai dengan pengaturan yang baru.
+                            </div>
+                            <img src="../../assets/image/configscreenpropresenter/5.png" alt="Step 5"
+                                class="step-image">
                         </li>
                     </ol>
                 </div>
 
-                <!-- Video Tutorial Card -->
+                <!-- Info Card -->
                 <div class="instruction-card fade-in">
-                    <h2 class="card-title">Tutorial Versi Video</h2>
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/SfEuzPvCtgk?si=yRHbqL4QFb0PgMfW"
-                            title="YouTube video player"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h2 class="card-title">Informasi Tambahan</h2>
+                    <div class="row text-center">
+                        <div class="col-md-6 mb-4">
+                            <h4>Monitor WL/Singer</h4>
+                            <p>Tampilan khusus lirik untuk membantu WL dan Singers.</p>
+                            <img src="../../assets/image/configscreenpropresenter/MonitorWL.png" alt="Monitor WL"
+                                class="step-image">
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h4>Monitor Pembicara</h4>
+                            <p>Tampilan yang sama dengan videotron/layar utama.</p>
+                            <img src="../../assets/image/configscreenpropresenter/MonitorPPT.png" alt="Monitor Speaker"
+                                class="step-image">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -138,6 +168,7 @@
 
         // Smooth hover effects for cards
         document.querySelectorAll('.instruction-card').forEach(card => {
+            card.style.transition = 'all 0.3s ease';
             card.addEventListener('mouseenter', () => {
                 card.style.transform = 'translateY(-8px)';
             });
